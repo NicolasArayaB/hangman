@@ -2,9 +2,9 @@ module Setup
   $block = "-------------------"
 
   def welcome
-    puts $block.center(120)
-    puts "Welcome to Hangman!".center(120)
-    puts $block.center(120)
+    puts $block.center(80)
+    puts "Welcome to Hangman!".center(80)
+    puts $block.center(80)
   end
 
   def options
@@ -43,12 +43,12 @@ module Setup
   end
 
   def winner
-    puts $block.center(120) 
-    puts "You are the winner!".center(120)
-    puts $block.center(120)
+    puts $block.center(80) 
+    puts "You are the winner!".center(80)
+    puts $block.center(80)
   end
 
   def g_o
-    puts "Game Over".center(120)
+    puts "Game Over".center(80)
   end
 end
